@@ -5,14 +5,14 @@ A sample Express application written in Node.js for a Github README post.
 ##  Prerequisites
 
 * Node.js
-* yarn
+* npm
 
 ### Install modules
 
-Run `yarn` to install the required node modules.
+Run `npm install` to install the required node modules.
 
 ```shell
-yarn install
+npm install
 ```
 
 ## Running
@@ -20,7 +20,7 @@ yarn install
 You can run the sample app in a couple of different ways. The first is to launch the application via `yarn`:
 
 ```shell
-yarn start
+npm start
 ```
 
 Or you can directly run it via `node`:
@@ -34,5 +34,5 @@ node app.js
 You can also run the tests via `yarn`:
 
 ```shell
-yarn test
+npm test
 ```
