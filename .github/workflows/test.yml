@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '18.x'
-    - name: Run Yarn
-      run: yarn
+    - name: Run npm
+      run: npm
     - name: Run tests
-      run: yarn test
+      run: npm test
