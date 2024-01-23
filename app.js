@@ -8,8 +8,9 @@ var animals = {
     "eel": "hiss",
     "bear": "growl",
     "frog": "croak",
-    "lion": "roar" 
-  }
+    "lion": "roar",
+    "fox": "bark"
+}
 
 function getAnimal() {
   return animal = _.sample(Object.entries(animals));
