@@ -21,6 +21,6 @@ jobs:
       with:
         node-version: '18.x'
     - name: Run npm
-      run: npm
+      run: npm install
     - name: Run tests
       run: npm test
